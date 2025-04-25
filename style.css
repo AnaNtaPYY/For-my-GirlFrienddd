@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #00bcd4;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #aaaaaa;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.about, .projects {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #00bcd4;
+}
+
+.project-card {
+    background-color: #2a2a2a;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.project-card:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+.project-card:active {
+    transform: scale(0.95); 
+    background-color: #444; 
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+    color: #00bcd4;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 40px;
+}
+
+.contact, .socials {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+.contact button {
+    background-color: #00bcd4;
+    color: black;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #0097a7;
+}
+
+.socials .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.socials a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.socials a:hover {
+    color: #ffffff;
+}
